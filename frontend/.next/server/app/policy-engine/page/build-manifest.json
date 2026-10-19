@@ -1,0 +1,22 @@
+{
+  "devFiles": [],
+  "ampDevFiles": [],
+  "polyfillFiles": [
+    "static/chunks/0cz1d0mv5g_q7.js"
+  ],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [
+    "static/chunks/1x6obpmlu1_c2.js",
+    "static/chunks/11t-zvhau74r5.js",
+    "static/chunks/1vo0wohvofgd7.js",
+    "static/chunks/13-49uo0co5b3.js",
+    "static/chunks/turbopack-3-ry682tkyiqk.js"
+  ],
+  "pages": {},
+  "ampFirstPages": [],
+  "rootMainFilesTree": {},
+  "pagesChunkGroupBootstrapParams": {
+    "/policy-engine/page": {"otherChunks":["static/chunks/1x6obpmlu1_c2.js","static/chunks/11t-zvhau74r5.js","static/chunks/1vo0wohvofgd7.js","static/chunks/13-49uo0co5b3.js"],"runtimeModuleIds":[94553]}
+  },
+  "chunkLoadingGlobal": "TURBOPACK"
+}

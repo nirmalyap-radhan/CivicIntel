@@ -1,0 +1,148 @@
+import { PolicyRecommendation } from '@/types';
+
+export const POLICY_RECOMMENDATIONS: PolicyRecommendation[] = [
+  {
+    id: 'rec-01',
+    title: 'Solar-Powered Mobile Telemedicine & Emergency Transit Grid',
+    cityId: 'koraput',
+    sector: 'healthcare',
+    priority: 'Immediate',
+    objective:
+      'Bridge the acute 36.4-point healthcare access deficit by deploying 24 off-road mobile diagnostic vans connected to SLN Medical College Koraput via ISRO/satellite broadband.',
+    estimatedBudgetCr: 32.0,
+    fundingMechanism: 'District Mineral Foundation (DMF) + State NHM Allocation (60:40)',
+    timeToImplementMonths: 9,
+    impactScore: 92,
+    feasibilityScore: 88,
+    keyStakeholders: ['government', 'ngo', 'citizen'],
+    expectedOutcomes: [
+      'Expand weekly specialized doctor consultations to 180+ remote tribal habitations',
+      'Reduce maternal referral delays by 42% through on-board fetal monitoring',
+      'Deliver real-time electronic health records (ABHA IDs) to 250,000 rural citizens',
+    ],
+    kpiImpact: [
+      { kpi: 'Healthcare Access Index', delta: '+8.4 pts in 18 months' },
+      { kpi: 'Institutional Delivery Rate', delta: 'Increase from 79% to 92%' },
+    ],
+  },
+  {
+    id: 'rec-02',
+    title: 'GI Koraput Coffee & Millet Agro-Processing Industrial Cluster',
+    cityId: 'koraput',
+    sector: 'employment',
+    priority: 'Strategic',
+    objective:
+      'Transform subsistence tribal agriculture into high-margin export commodities by creating common curing, packaging, and cold-storage facilities near Jeypore Highway Corridor.',
+    estimatedBudgetCr: 65.0,
+    fundingMechanism: 'OMBADC (Odisha Mineral Bearing Areas) + PPP Private Concessionaire',
+    timeToImplementMonths: 18,
+    impactScore: 95,
+    feasibilityScore: 82,
+    keyStakeholders: ['investor', 'business', 'government'],
+    expectedOutcomes: [
+      'Establish 12 FPO-operated micro-curing stations and 1 central vacuum freeze-drying facility',
+      'Raise tribal coffee growers farmgate income by 35-40%',
+      'Create 3,500 direct and 8,000 indirect non-agricultural livelihoods',
+    ],
+    kpiImpact: [
+      { kpi: 'Employment & Livelihood Index', delta: '+6.2 pts' },
+      { kpi: 'Formal Non-Farm Jobs', delta: '+4,200 jobs by 2027' },
+    ],
+  },
+  {
+    id: 'rec-03',
+    title: 'Digital High School STEM Acceleration & Tribal Vernacular Mentorship',
+    cityId: 'koraput',
+    sector: 'education',
+    priority: 'Medium Term',
+    objective:
+      'Upgrade 45 Model Secondary Schools with interactive virtual science labs and multi-lingual (Kui, Desia, Odia, English) STEM mentoring modules.',
+    estimatedBudgetCr: 18.5,
+    fundingMechanism: 'Mo School Abhiyan Corporate CSR + State 5T School Fund',
+    timeToImplementMonths: 12,
+    impactScore: 89,
+    feasibilityScore: 85,
+    keyStakeholders: ['government', 'ngo', 'citizen'],
+    expectedOutcomes: [
+      'Equip 45 high schools with interactive physics/biology lab kits and solar batteries',
+      'Provide monthly living stipends for STEM post-graduate teaching fellows',
+      'Raise Class 10 to +2 Science stream continuation rate from 28% to 44%',
+    ],
+    kpiImpact: [
+      { kpi: 'Education Quality Index', delta: '+7.1 pts' },
+      { kpi: 'Secondary Retention Rate', delta: 'Increase to 74%' },
+    ],
+  },
+  {
+    id: 'rec-04',
+    title: 'Solar Micro-Grid Gravity Piped Water Reticulation Program',
+    cityId: 'koraput',
+    sector: 'infrastructure',
+    priority: 'Immediate',
+    objective:
+      'Leverage natural hill contour elevation to provide continuous treated tap water to 220 highland tolas using zero-carbon solar pumping and gravity tanks.',
+    estimatedBudgetCr: 44.0,
+    fundingMechanism: 'Jal Jeevan Mission (Central-State 50:50) + DMF Grant',
+    timeToImplementMonths: 14,
+    impactScore: 91,
+    feasibilityScore: 86,
+    keyStakeholders: ['government', 'citizen', 'ngo'],
+    expectedOutcomes: [
+      'Construct 85 community gravity storage reservoirs on elevated ridge-lines',
+      'Eliminate diesel generator fuel dependencies for water pumping',
+      'Train 400 women Self-Help Group members as certified water quality testers (Jal Sathis)',
+    ],
+    kpiImpact: [
+      { kpi: 'Physical & Digital Infra Index', delta: '+5.5 pts' },
+      { kpi: 'Piped Water Household Ratio', delta: 'Reach 65% in Koraput by 2027' },
+    ],
+  },
+  {
+    id: 'rec-05',
+    title: 'Adaptive AI Urban Flood Mitigation & Sponge Retention Basin Network',
+    cityId: 'bhubaneswar',
+    sector: 'infrastructure',
+    priority: 'Immediate',
+    objective:
+      'Integrate smart ultrasonic water-level sensors across 10 primary storm drains connected to the Bhubaneswar Operations Centre (BOC) and rejuvenate 6 natural detention reservoirs.',
+    estimatedBudgetCr: 88.0,
+    fundingMechanism: 'Smart Cities Mission + AMRUT 2.0 Resilience Fund',
+    timeToImplementMonths: 15,
+    impactScore: 94,
+    feasibilityScore: 89,
+    keyStakeholders: ['government', 'citizen', 'business'],
+    expectedOutcomes: [
+      'Eliminate seasonal inundation across 14 vulnerable municipal intersections',
+      'Recharge over 3.2 million cubic meters of urban groundwater annually',
+      'Provide automated 30-minute advance flash flood alerts to citizen mobile apps',
+    ],
+    kpiImpact: [
+      { kpi: 'Physical & Digital Infra Index', delta: '+2.8 pts' },
+      { kpi: 'Disaster Resilience Score', delta: '+14 pts' },
+    ],
+  },
+  {
+    id: 'rec-06',
+    title: 'Zero-Emission Multimodal Micro-Mobility Feeder Fleet (Mo E-Ride 2.0)',
+    cityId: 'bhubaneswar',
+    sector: 'infrastructure',
+    priority: 'Medium Term',
+    objective:
+      'Deploy 600 electric feeder shuttles connecting Patia IT corridors and residential peripheral wards directly to upcoming Bhubaneswar Metro Line 1 stations.',
+    estimatedBudgetCr: 45.0,
+    fundingMechanism: 'CRUT (Capital Region Urban Transport) PPP Scheme',
+    timeToImplementMonths: 10,
+    impactScore: 87,
+    feasibilityScore: 93,
+    keyStakeholders: ['business', 'citizen', 'investor', 'government'],
+    expectedOutcomes: [
+      'Cut peak corridor commuting times by 20-25%',
+      'Reduce localized PM2.5 tailpipe emissions by 1,800 MT annually',
+      'Achieve 98% unified digital smart card / QR transit ticketing integration',
+    ],
+    kpiImpact: [
+      { kpi: 'Public Transit Mode Share', delta: 'Increase to 46%' },
+      { kpi: 'Carbon Intensity per Passenger-Km', delta: '-32%' },
+    ],
+  },
+];

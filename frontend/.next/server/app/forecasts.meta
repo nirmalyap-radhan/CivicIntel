@@ -1,0 +1,36 @@
+{
+  "status": 200,
+  "headers": {
+    "link": "</_next/static/media/797e433ab948586e-s.p.0r6juujl39pe6.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\", </_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2>; rel=preload; as=\"font\"; crossorigin=\"\"; type=\"font/woff2\"",
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/forecasts/layout,_N_T_/forecasts/page,_N_T_/forecasts"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/forecasts/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 49216,
+    "slots": {
+      "children": {
+        "hints": 49248,
+        "slots": {
+          "children": {
+            "hints": 49312,
+            "slots": null
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/91f2847ed33cdfe3a5f99963d6b6ed4786d8101a6800bc6589e85a600c6f6e67/$/forecasts",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/forecasts/page"
+    },
+    "isFallback": false
+  }
+}

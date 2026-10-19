@@ -1,0 +1,15 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/citizen-engagement/page": "/citizen-engagement",
+  "/comparison/page": "/comparison",
+  "/favicon.ico/route": "/favicon.ico",
+  "/forecasts/page": "/forecasts",
+  "/insights/page": "/insights",
+  "/intelligence/page": "/intelligence",
+  "/investor-marketplace/page": "/investor-marketplace",
+  "/page": "/",
+  "/policy-engine/page": "/policy-engine",
+  "/reports/page": "/reports",
+  "/settings/page": "/settings"
+}

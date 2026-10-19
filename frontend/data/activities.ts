@@ -1,0 +1,95 @@
+import { RecentActivity } from '@/types';
+
+export const RECENT_ACTIVITIES: RecentActivity[] = [
+  {
+    id: 'act-01',
+    type: 'policy',
+    title: 'District Mineral Foundation (DMF) approves ₹32 Cr Telemedicine Grid',
+    timestamp: '2 hours ago',
+    cityId: 'koraput',
+    sector: 'healthcare',
+    actor: 'District Planning Committee',
+    summary:
+      'Sanctioned procurement of 24 all-terrain 4x4 mobile health clinics equipped with satellite telemetry to connect 180 tribal hamlets directly to SLN Medical College.',
+    metricTag: 'Healthcare Access',
+    statusBadge: 'Approved',
+  },
+  {
+    id: 'act-02',
+    type: 'milestone',
+    title: 'Jal Jeevan Mission Solar Gravity Scheme reaches 48.2% Tap Coverage',
+    timestamp: '5 hours ago',
+    cityId: 'koraput',
+    sector: 'infrastructure',
+    actor: 'Rural Water Supply & Sanitation (RWSS)',
+    summary:
+      'Completed multi-village solar-gravity reticulation commissioning for 34 highland tolas in Semiliguda and Pottangi blocks, providing safe piped water.',
+    metricTag: 'Infrastructure',
+    statusBadge: 'Milestone',
+  },
+  {
+    id: 'act-03',
+    type: 'investment',
+    title: 'Expression of Interest floated for ₹85 Cr Mega Agro-Food Processing Park',
+    timestamp: '1 day ago',
+    cityId: 'koraput',
+    sector: 'employment',
+    actor: 'IDCO Odisha & District Administration',
+    summary:
+      'Global tender issued for private concessionaire to establish curing, roasting, and vacuum packaging infrastructure for GI Koraput Coffee and organic ginger.',
+    metricTag: 'Investor Pipeline',
+    statusBadge: 'Tender Active',
+  },
+  {
+    id: 'act-04',
+    type: 'survey',
+    title: 'Citizen Pulse Survey: 78% Jeypore respondents demand upgraded Trauma ICU',
+    timestamp: '1 day ago',
+    cityId: 'koraput',
+    sector: 'healthcare',
+    actor: 'CivicIntel Field Analytics',
+    summary:
+      'Bi-annual civic survey of 1,420 citizens highlighted secondary health specialist retention as the number one public priority.',
+    metricTag: 'Citizen Engagement',
+    statusBadge: 'Field Report',
+  },
+  {
+    id: 'act-05',
+    type: 'milestone',
+    title: 'Bhubaneswar Metro Phase-1: Elevated Viaduct Pier Piling crosses 60% mark',
+    timestamp: '3 hours ago',
+    cityId: 'bhubaneswar',
+    sector: 'infrastructure',
+    actor: 'Bhubaneswar Metro Rail Corporation',
+    summary:
+      'Construction progress on the Airport to Trishulia corridor remains ahead of schedule with 4 key elevated station slabs cast.',
+    metricTag: 'Public Mobility',
+    statusBadge: 'On Track',
+  },
+  {
+    id: 'act-06',
+    type: 'alert',
+    title: 'BOC deploys automated IoT telemetry gates along Gangua Drainage Channel',
+    timestamp: '6 hours ago',
+    cityId: 'bhubaneswar',
+    sector: 'infrastructure',
+    actor: 'Smart City Operations Center',
+    summary:
+      '14 ultrasonic water-level sensors activated across low-lying wards to provide automated 30-minute flash flood warnings to ward officers.',
+    metricTag: 'Flood Resilience',
+    statusBadge: 'Active Sensor',
+  },
+  {
+    id: 'act-07',
+    type: 'investment',
+    title: 'Silicon Power commissions compound semiconductor testing pilot at Infovalley',
+    timestamp: '2 days ago',
+    cityId: 'bhubaneswar',
+    sector: 'employment',
+    actor: 'Odisha IT & ESDM Dept',
+    summary:
+      'High-tech packaging facility begins preliminary cleanroom operations, creating 420 specialized electronics engineering positions.',
+    metricTag: 'Tech Jobs',
+    statusBadge: 'Commercial',
+  },
+];
